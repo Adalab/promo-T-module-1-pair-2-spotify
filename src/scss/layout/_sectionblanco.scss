@@ -1,0 +1,46 @@
+.blanco {
+    background-color: white;
+    width: 100%;
+
+}
+
+.h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.img-blanco {
+    width: 70px;
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+}
+
+.texto-blanco {
+
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+
+.article-premium {
+    padding-top: 3vh;
+}
+
+.bold {
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.article-premium {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.blanco-div {
+    @media screen and (max-width:480px) {
+    display: flex;
+    flex-direction: column
+   }
+}

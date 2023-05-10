@@ -1,0 +1,36 @@
+.azul {
+    background-color: rgb(47, 147, 230);
+    font-family: var(--font-family);
+    color: white;
+    text-align: start;
+    padding: 10px;
+    line-height: 1;
+}
+
+.prueba {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 80px;
+}
+
+.escucha {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.planes {
+
+    background-color: rgb(61, 172, 98);
+    height: 30px;
+    width: 300px;
+    border-radius: 40px;
+    text-align: center;
+    margin: var(--margin);
+}
+
+
+.prueba {
+    font-family: var(--font-family) var(--font-family)
+}

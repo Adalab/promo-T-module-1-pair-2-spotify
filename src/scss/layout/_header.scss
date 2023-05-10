@@ -1,0 +1,24 @@
+.header {
+    background-color: black;
+    height: 11vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    margin: var(--margin)
+}
+
+.hamburguesa {
+    width: 100px;
+}
+
+.dancer {
+    @media screen and (max-width:480px) {
+        display: none;
+    }
+}
